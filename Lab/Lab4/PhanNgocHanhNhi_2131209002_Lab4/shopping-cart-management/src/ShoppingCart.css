@@ -1,0 +1,67 @@
+/* General Page Styles */
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px;
+  color: #000;
+}
+
+/* Main Section Container */
+.section-container {
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+/* Headings */
+h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Individual Item Rows */
+.item-row {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Text inside items */
+.item-text {
+  font-size: 16px;
+}
+
+/* Button Styles */
+button {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  padding: 3px 8px;
+  background-color: #efefef;
+  border: 1px solid #767676;
+  border-radius: 2px;
+  cursor: pointer;
+  color: black;
+}
+
+button:active {
+  background-color: #d0d0d0;
+  border-style: inset;
+}
+
+/* Specific spacing for cart controls */
+.cart-controls {
+  display: flex;
+  gap: 5px;
+}
+
+/* Total Section */
+.total-price {
+  font-weight: bold;
+  margin: 20px 0;
+  font-size: 16px;
+}

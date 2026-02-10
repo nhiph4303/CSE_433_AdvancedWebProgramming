@@ -1,0 +1,6 @@
+/* App level styles can go here */
+.app-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

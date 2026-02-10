@@ -1,0 +1,12 @@
+Note wed nâng cao - Bài 2 Typescript
+html-to-jsx
+- Type aliase (đặt lại tên cho dữ liệu đã có)
+- union type: 
+
+Bài 3 web nâng cao
+- cd
+- npm create vite@latest alert-component -- --template react-ts
+- code . 
+
+Bài 4 using hook
+useEffect() phải chạy được ít nhất 1 lần, ko thì nó sẽ báo lỗi

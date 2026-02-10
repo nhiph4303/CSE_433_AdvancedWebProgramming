@@ -1,0 +1,31 @@
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Use a pleasant background for the whole page */
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* Start from top, don't center vertically */
+  min-height: 100vh;
+}
+
+/* Add a container class here to be used in App.tsx for the card effect */
+.todo-container {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  /* Optional, but looks nicer */
+  overflow: hidden;
+  /* For border radius */
+}
