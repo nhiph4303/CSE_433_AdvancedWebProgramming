@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "title": "Getting started with fetch",
+      "description": "How to interact with backend APIs using fetch",
+      "id": "1"
+    },
+    {
+      "title": "Getting started with useEffect",
+      "description": "How to use React's useEffect hook for interacting with backend APIs",
+      "id": "2"
+    },
+    {
+      "title": "fbdf",
+      "description": "fbf",
+      "id": "sVf4aqwF4PY"
+    },
+    {
+      "title": "fbdf",
+      "description": "fbf",
+      "id": "6Y6RB3emvdc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

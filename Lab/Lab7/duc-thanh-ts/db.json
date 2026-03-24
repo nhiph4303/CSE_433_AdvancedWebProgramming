@@ -1,0 +1,148 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "userName": "admin",
+      "password": "123456",
+      "email": "admin@gmail.com",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "userName": "user01",
+      "password": "123456",
+      "email": "user@gmail.com",
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "userName": "tran_b",
+      "password": "123456",
+      "email": "tranb@gmail.com",
+      "role": "user"
+    }
+  ],
+  "categories": [
+    {
+      "id": "2",
+      "categoryName": "Máy bộ",
+      "description": "PC văn phòng và Gaming",
+      "createAt": "2025-01-12",
+      "createBy": "admin"
+    },
+    {
+      "id": "3",
+      "categoryName": "Màn hình",
+      "description": "Màn hình LCD, LED, 4K",
+      "createAt": "2025-01-15",
+      "createBy": "admin"
+    },
+    {
+      "id": "4",
+      "categoryName": "Gear",
+      "description": "Chuột, phím, tai nghe",
+      "createAt": "2025-01-20",
+      "createBy": "admin"
+    },
+    {
+      "id": "5",
+      "categoryName": "Camera",
+      "description": "Camera giám sát an ninh",
+      "createAt": "2025-01-22",
+      "createBy": "nhi"
+    }
+  ],
+  "products": [
+    {
+      "id": "2",
+      "title": "Dell Vostro 3520",
+      "thumbnail": "/assets/1.png",
+      "price": "15550000",
+      "summary": "Laptop Dell Vostro mỏng nhẹ.",
+      "description": "Laptop văn phòng mỏng nhẹ, CPU Intel Core i5 thế hệ 12, RAM 8GB, SSD 256GB.",
+      "stock": 5,
+      "categoryId": 1
+    },
+    {
+      "id": "3",
+      "title": "Ghế Gaming G2",
+      "thumbnail": "/assets/152319bf915b118cddf8d40ea0dace49.jpg",
+      "price": "3550000",
+      "summary": "Ghế Gaming Extreme.",
+      "description": "Ghế gaming cao cấp, đệm mềm, tựa lưng ngả 180 độ, phù hợp gaming marathon.",
+      "stock": 8,
+      "categoryId": 2
+    },
+    {
+      "id": "4",
+      "title": "LG 24MP60G",
+      "thumbnail": "/assets/152319bf915b118cddf8d40ea0dace49.jpg",
+      "price": "3250000",
+      "summary": "Màn hình LG 24 inch.",
+      "description": "Màn hình IPS 24 inch Full HD, 75Hz, thời gian phản hồi 1ms, tích hợp AMD FreeSync.",
+      "stock": 12,
+      "categoryId": 3
+    },
+    {
+      "id": "5",
+      "title": "PC Gaming DT01",
+      "thumbnail": "/assets/1.png",
+      "price": "18000000",
+      "summary": "PC Gaming mạnh mẽ.",
+      "description": "Bộ PC Gaming: Intel Core i7-12700F, RTX 3060, RAM 16GB, SSD 512GB.",
+      "stock": 4,
+      "categoryId": 2
+    },
+    {
+      "id": "6",
+      "title": "Dell U2723QE",
+      "thumbnail": "/assets/1.png",
+      "price": "12500000",
+      "summary": "Màn hình Dell 27 inch.",
+      "description": "Màn hình 4K IPS 27 inch, USB-C 90W, độ phủ màu 100% sRGB, cho đồ họa chuyên nghiệp.",
+      "stock": 5,
+      "categoryId": 3
+    },
+    {
+      "id": "7",
+      "title": "Chuột Logitech G502",
+      "thumbnail": "/assets/1.png",
+      "price": "1200000",
+      "summary": "Chuột gaming độ chính xác cao.",
+      "description": "Chuột gaming HERO 25K, 11 nút lập trình, cân chỉnh trọng lượng, RGB Lightsync.",
+      "stock": 50,
+      "categoryId": 4
+    },
+    {
+      "id": "8",
+      "title": "Bàn phím Akko 3068B",
+      "thumbnail": "/assets/1.png",
+      "price": "1500000",
+      "summary": "Bàn phím cơ không dây.",
+      "description": "Bàn phím cơ 65%, kết nối Bluetooth 5.0 + USB-C, switch Akko CS Jelly, PBT keycap.",
+      "stock": 20,
+      "categoryId": 4
+    },
+    {
+      "id": "9",
+      "title": "Camera Hikvision DS-2CD2143",
+      "thumbnail": "/assets/1.png",
+      "price": "1400000",
+      "summary": "Camera IP ngoài trời 4MP.",
+      "description": "Camera IP Dome 4MP, chống bụi nước IP67, hồng ngoại 30m, hỗ trợ PoE.",
+      "stock": 15,
+      "categoryId": 5
+    },
+    {
+      "id": "10",
+      "title": "Laptop Asus VivoBook 15",
+      "thumbnail": "/assets/1.png",
+      "price": "12900000",
+      "summary": "Laptop sinh viên giá rẻ.",
+      "description": "AMD Ryzen 5 5500U, RAM 8GB, SSD 512GB, màn hình 15.6 inch FHD, pin 14 tiếng.",
+      "stock": 7,
+      "categoryId": 1
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

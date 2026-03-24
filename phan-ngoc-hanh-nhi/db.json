@@ -1,0 +1,7 @@
+{
+  "products": [
+    { "id": 1, "title": "Bàn phím cơ", "description": "Gõ siêu êm, có LED RGB", "latestVersion": "v1.2" },
+    { "id": 2, "title": "Chuột Logitech", "description": "Không dây, pin 70 ngày", "latestVersion": "v3.0" },
+    { "id": 3, "title": "Màn hình LG 27\"", "description": "4K IPS, 144Hz, HDR400", "latestVersion": "v2.1" }
+  ]
+}

@@ -1,0 +1,2 @@
+﻿../react-route/src/pages/ContactPage.tsx(2,19): error TS1484: 'FieldError' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+../react-route/src/pages/ValidationError.tsx(1,10): error TS1484: 'FieldError' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
