@@ -4,6 +4,7 @@ import { Layout } from "./Layout";
 import { HomePage } from "./HomePage";
 import { AccountPage } from "./AccountPage";
 import { AddNewPage } from "./AddNewPage";
+import { AuthProvider } from "./AuthContext";
 
 const router = createBrowserRouter([
   {
@@ -27,7 +28,11 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
+  );
 }
 
 export default App;

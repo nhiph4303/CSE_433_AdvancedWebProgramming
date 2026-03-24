@@ -1,6 +1,9 @@
+import { useContext } from "react";
 import { NavLink } from "react-router-dom";
+import { AuthContext } from "./AuthContext";
 
 export function Header() {
+  const { user, login } = useContext(AuthContext);
   return (
     <header className="bg-white shadow-md">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
@@ -40,12 +43,25 @@ export function Header() {
         </nav>
 
         <div className="user-section">
+          {user ? (
+            <span className="font-medium">Hi, {user.name}</span>
+          ) : (
+            <button
+              onClick={login}
+              className="bg-blue-500 text-white px-4 py-2 rounded"
+            >
+              Log in
+            </button>
+          )}
+        </div>
+
+        {/* <div className="user-section">
           <button className="bg-blue-500 text-white px-4 py-2 rounded">
             Log in
           </button>
 
           <span className="font-medium">Hi, user</span>
-        </div>
+        </div> */}
       </div>
     </header>
   );
