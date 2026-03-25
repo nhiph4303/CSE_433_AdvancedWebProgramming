@@ -5,8 +5,50 @@ html-to-jsx
 
 Bài 3 web nâng cao
 - cd
-- npm create vite@latest alert-component -- --template react-ts
+- npm create vite@latest share-state -- --template react-ts
 - code . 
 
-Bài 4 using hook
-useEffect() phải chạy được ít nhất 1 lần, ko thì nó sẽ báo lỗi
+Bài 4 using hook - phải để ở top
+useEffect() phải chạy được ít nhất 1 lần, ko được nằm trong loop, ko thì nó sẽ báo lỗi
+useMemo()
+
+Bài 5 - Use style
+MUI
+
+npm create vite@latest using-api -- --template react-ts
+npm -i tailwindcss 
+install create router dom
+
+shift alt F: format code
+
+npm i -D prettier: config code pretttier
+
+npm i -D eslint-config-prettier eslint-plugin-prettier: avoid eslint attack vs prettier
+code .
+
+npm run dev
+
+o: run 
+
+q: to quit
+
+npm create vite@latest lab2 -- --template react-ts: create project typeScript
+
+npm install tailwindcss @tailwindcss/vite: instal tailwind
+
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [tailwindcss(), react()],
+});
+
+
+@import "tailwindcss";
+
+
+npm i react-router-dom
+
+npm i -D json-server
