@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* CSS bổ trợ cho thiết kế, thí sinh copy đoạn này cho vào src/index.css */
+.user-section {
+    min-width: 120px;
+    text-align: right;
+}
+
+/* Class hidden dùng để tạm ẩn code khi thiết kế HTML 1 cục. 
+Khi đưa code vào file React thành từng Trang rời, thì NHỚ XÓA CHỮ "hidden" ĐI */
+.hidden {
+    display: none !important; 
+}

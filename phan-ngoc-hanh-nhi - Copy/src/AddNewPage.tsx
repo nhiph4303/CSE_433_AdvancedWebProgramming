@@ -1,11 +1,9 @@
 import { useForm } from "react-hook-form";
-
 type FormData = {
   title: string;
   description: string;
   latestVersion: string;
 };
-
 export function AddNewPage() {
   const {
     register,
