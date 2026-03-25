@@ -45,6 +45,7 @@ export function HomePage() {
                 <th className="p-4">Title</th>
                 <th className="p-4">Description</th>
                 <th className="p-4">Latest Version</th>
+                <th className="p-4">Action</th>
               </tr>
             </thead>
             <tbody>
@@ -69,6 +70,17 @@ export function HomePage() {
                       Xóa
                     </button>
                   </td>
+
+                  <button
+                    onClick={() => {
+                      const newTitle = prompt("Nhập tên mới:", product.title);
+                      if (newTitle)
+                        handleUpdate(product.id, { title: newTitle });
+                    }}
+                    className="bg-yellow-500 text-white px-3 py-1 rounded text-sm mr-2"
+                  >
+                    Sửa
+                  </button>
                 </tr>
               ))}
             </tbody>
